@@ -16,7 +16,7 @@ int main(int argc, char const *argv[])
 		cout<< "Unable to access " << fileName << endl;
 	}*/
 
-	outputFile.open(fileName,ios::out);
+	outputFile.open(fileName,ios::app);
 	/*
 	app = Append mode. All output to that file to be appended to the end.
 	ate = Open a file for output and move the read/write control to the end of the file.
