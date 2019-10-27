@@ -11,7 +11,7 @@ int main(int argc, char const *argv[])
 	ofstream outputFile;
 
 	/*
-	While using ifstream the default opening mode is write only
+	While using ofstream the default opening mode is write only
 	*/
 
 	outputFile.open(fileName);
